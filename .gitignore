@@ -1,0 +1,16 @@
+# Raw / preprocessed image data (see docs/Processed Data link.txt)
+dataset/dataset/
+preprocessed/
+*.pt
+
+# Training outputs
+checkpoints/
+*_training_curves.png
+submission.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
